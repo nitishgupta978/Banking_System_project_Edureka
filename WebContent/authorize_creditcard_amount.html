@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Authorize Transactions</title>
+</head>
+<body style="background-color:MediumSeaGreen">
+
+	<h2 style=text-align:center>Authorize Credit Card Transaction.</h2>
+	
+	<form action="authorize" method="post">
+	  <label for="name">Name:</label>
+	  <input type="text" id="name" name="name" style="margin-left: 50px">
+	  <br><br>
+	  <label for="card">Card Number:</label>
+	  <input type="text" id="card" name="card">
+	  <br><br>
+ 	  <label for="cvv2">CVV2/CVC2:</label>
+	  <input type="text" id="cvv2" name="cvv2">
+	  <br><br>
+	  <label for="amount">Amount:</label>
+	  <input type="text" id="amount" name="amount" style="margin-left: 35px">
+	  <br><br>
+	  <input type="submit" value="Authorize">
+	</form>
+
+</body>
+</html>
